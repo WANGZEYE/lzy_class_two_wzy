@@ -5,24 +5,24 @@
     android:layout_height="match_parent">
 
     <Button
+        android:id="@+id/zengjia"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="书名"/>
+        android:hint="增加"/>
     <Button
+        android:id="@+id/shanchu"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="出版社"/>
+        android:hint="删除"/>
     <Button
+        android:id="@+id/xiugai"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="价格"/>
+        android:hint="修改"/>
     <Button
+        android:id="@+id/chaxun"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="页码"/>
-    <Button
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="作者"/>
+        android:hint="查询"/>
 
 </LinearLayout>
