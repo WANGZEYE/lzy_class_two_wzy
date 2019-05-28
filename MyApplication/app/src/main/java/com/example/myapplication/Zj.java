@@ -6,24 +6,24 @@ import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 import android.widget.Button;
 
-public class D extends AppCompatActivity implements View.OnClickListener{
+public class Zj extends AppCompatActivity implements View.OnClickListener {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.d);
-        Button b = (Button) findViewById(R.id.zengjia);
+        setContentView(R.layout.zj);
+        Button b = (Button) findViewById(R.id.tjml);
         b.setOnClickListener(this);
+
     }
 
     @Override
     public void onClick(View v) {
         switch (v.getId()) {
-            case R.id.zengjia:
-                Intent z = new Intent(D.this, Zj.class);
-                startActivity(z);
+            case R.id.tjml:
+                Intent j = new Intent(Zj.this, D.class);
+                startActivity(j);
                 break;
         }
-
     }
 }

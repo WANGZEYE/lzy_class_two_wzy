@@ -5,26 +5,34 @@
     android:layout_height="match_parent">
 
     <EditText
-        android:id="@+id/zhanghao"
+        android:id="@+id/shuming"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:hint="账号"/>
-
+        android:hint="书名"/>
     <EditText
-        android:id="@+id/mima"
+        android:id="@+id/chubanshe"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:hint="密码"/>
-
+        android:hint="出版社"/>
+    <EditText
+        android:id="@+id/jiage"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="价格"/>
+    <EditText
+        android:id="@+id/yema"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="页码"/>
+    <EditText
+        android:id="@+id/zuozhe"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="作者"/>
     <Button
-        android:id="@+id/denglu"
+        android:id="@+id/tjml"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="登录"/>
-    <Button
-        android:id="@+id/zhuce"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="注册"/>
+        android:text="添加书目"/>
 
 </LinearLayout>
